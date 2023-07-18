@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import CourseCard from '../CourseCard/CourseCard.jsx';
 import './SearchBar.scss';
+import { Link } from 'react-router-dom';
 
 const SearchBar = (props) => {
 	const [searchTerm, setSearchTerm] = useState('');
@@ -11,6 +12,7 @@ const SearchBar = (props) => {
 			<div className='container-SearchBar'>
 				<div className='include-item'>
 					<input
+						className='searchInput'
 						type='text'
 						placeholder='Search...'
 						onChange={(event) => {
@@ -20,9 +22,9 @@ const SearchBar = (props) => {
 				</div>
 				<div className='add-dutton-wrapper'>
 					<div className='add-dutton-wrapper-container'>
-						<a href='#2' className='herfClass'>
-							Створити курс
-						</a>
+						<Link className='linkadd' to='/create'>
+							Create course
+						</Link>
 					</div>
 				</div>
 			</div>

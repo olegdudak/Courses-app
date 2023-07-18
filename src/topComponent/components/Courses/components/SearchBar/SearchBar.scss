@@ -15,8 +15,11 @@
 
 .include-item input{
     width: 400px;
-    height: 30px;
+    height: 40px;
     font-size: 18px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 .include-item{
@@ -29,9 +32,6 @@
     align-items: center;
 }
 
-
-
-
 .herfClass{
     font-size: 18px;
     border: 2px solid rgb(228, 231, 80);
@@ -42,3 +42,32 @@
      color: #000;
 }
 
+.add-dutton-wrapper-container{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.linkadd{
+    text-decoration: none;
+    color: #9b9b9b;
+    width: 200px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border: 2px solid rgb(146, 146, 146);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.searchInput{
+    color: #9b9b9b;
+}

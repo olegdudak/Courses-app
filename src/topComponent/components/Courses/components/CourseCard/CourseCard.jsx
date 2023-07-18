@@ -32,12 +32,6 @@ function CourseCard(props) {
 									<b>Created:</b> {inf.creationDate}
 								</div>
 							</div>
-
-							<div className='right-course-info-down'>
-								<div className='btn-course-card'>
-									<button>Показати курс</button>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>

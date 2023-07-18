@@ -3,9 +3,11 @@ import './App.scss';
 import Header from './topComponent/components/Header/Header';
 import SearchBar from './topComponent/components/Courses/components/SearchBar/SearchBar.jsx';
 import CreateCourse from './topComponent/components/CreateCourse/CreateCourse';
+import Info from './topComponent/components/info/info';
 import { useState } from 'react';
 import CardInfoCourses from './topComponent/components/Courses/components/CourseCard/CardInfoCourses';
 import CardInfoAutors from './topComponent/components/Courses/components/CourseCard/CardInfoAutors';
+import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
 	const [massiv, setMassiv] = useState(CardInfoCourses);
@@ -17,29 +19,24 @@ const App = () => {
 				<div className='header-container'>
 					<Header />
 				</div>
-
-				<nav className='tabs-items'>
-					<a href='#1' className='tabs-item'>
-						Course
-					</a>
-					<a href='#2' className='tabs-item'>
-						AddCourse
-					</a>
-				</nav>
-
 				<div className='tabs-body'>
-					<div id='1' className='tabs-block '>
-						<div className='SearchBar'>
-							<SearchBar massiv={massiv} addAutor={addAutor} />
-						</div>
-					</div>
-					<div id='2' className='tabs-block'>
-						<CreateCourse
-							setMassiv={setMassiv}
-							addAutor={addAutor}
-							setAddAutor={setAddAutor}
+					<Routes>
+						<Route
+							path='/'
+							element={<SearchBar massiv={massiv} addAutor={addAutor} />}
 						/>
-					</div>
+						<Route
+							path='/create'
+							element={
+								<CreateCourse
+									setMassiv={setMassiv}
+									addAutor={addAutor}
+									setAddAutor={setAddAutor}
+								/>
+							}
+						/>
+						<Route path='/info' element={<Info />} />
+					</Routes>
 				</div>
 			</div>
 		</div>
