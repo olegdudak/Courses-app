@@ -1,0 +1,42 @@
+.wrapper-app{
+    padding: 20px 0px;
+}
+
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.CourseCard{
+    display: flex;
+    justify-content: center;
+}
+
+.SearchBar{
+    border: 2px solid brown;
+    min-height: 655px;
+    
+}
+
+.link-route{
+    font-size: 20px;
+}
+
+.header-container{
+    padding: 0px 0px 20px 0px;
+}
+
+
+.tabs-block {
+    display: none;
+}
+
+.tabs-items{
+    display: none;
+}
+
+.tabs-block:target{
+    display: block;
+}
+

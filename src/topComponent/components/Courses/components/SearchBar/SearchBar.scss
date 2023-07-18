@@ -1,0 +1,44 @@
+.wrapper-SearchBar{
+    padding: 10px 0px;
+}
+.container-SearchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px 10px 0px;
+}
+
+.container-CourseCard{
+    display: flex;
+    justify-content: center;
+}
+
+.include-item input{
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.include-item{
+    padding: 20px;
+}
+
+.add-dutton-wrapper{
+    display: flex;
+    padding: 0px 40px;
+    align-items: center;
+}
+
+
+
+
+.herfClass{
+    font-size: 18px;
+    border: 2px solid rgb(228, 231, 80);
+    width: 200px;
+    height: 40px;
+     text-decoration: none;
+     padding: 10px;
+     color: #000;
+}
+
