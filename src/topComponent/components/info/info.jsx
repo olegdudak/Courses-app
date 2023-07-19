@@ -6,55 +6,55 @@ const Info = () => {
 		<div className='info_container'>
 			<div className='info_text'>
 				<div className='title_text'>
-					<h2>Ласкаво просимо до вкладки "Інформація"</h2>
+					<h2>Welcome to the tab "Information"</h2>
 				</div>
 				<div className='text'>
 					<p>
-						Програма з курсами ІТ - це відмінна можливість розвинути свої
-						навички та отримати нові знання в сфері інформаційних технологій.
-						Наші курси розроблені з метою допомогти вам розширити ваші
-						комп'ютерні вміння та підготувати вас для успішної кар'єри в галузі
-						ІТ.
+						The program with IT courses is an excellent opportunity to develop
+						your own skills and gain new knowledge in the field of information
+						technologies. Our courses are designed to help you expand your
+						computer skills and prepare you for a successful career in the
+						industry IT.
 					</p>
-					<p>Основні переваги нашої програми з курсами ІТ:</p>
+					<p>The main advantages of our program with IT courses:</p>
 					<ol>
 						<li>
-							Розмаїтість курсів: У нас ви знайдете широкий вибір курсів, що
-							охоплюють різні аспекти інформаційних технологій, включаючи
-							програмування, бази даних, мережі, кібербезпеку та багато іншого.
-							Ви можете обрати курси, які найкраще відповідають вашим інтересам
-							та метам.
+							Variety of courses: With us you will find a wide selection of
+							courses that cover various aspects of information technology,
+							including programming, databases, networking, cyber security and
+							more. You can choose the courses that best suit your interests and
+							goals
 						</li>
 						<li>
-							Кваліфіковані інструктори: Наші курси проводять досвідчені
-							професіонали з галузі ІТ, які мають багаторічний досвід у своїй
-							сфері. Вони готові поділитися своїми знаннями, відповісти на ваші
-							запитання та надати необхідну підтримку протягом всього навчання.
+							Qualified instructors: Our courses are conducted by experienced
+							instructors IT professionals who have many years of experience in
+							their field sphere They are ready to share their knowledge, answer
+							yours questions and provide necessary support throughout the
+							training.
 						</li>
 						<li>
-							Практичні завдання: Наша програма акцентує на практичних вправах
-							та проектах, що дозволяє вам застосовувати теоретичні знання у
-							реальних ситуаціях. Це допомагає вам зрозуміти матеріал краще та
-							набути практичний досвід, який можна використовувати в майбутній
-							роботі.
+							Practical tasks: Our program emphasizes practical exercises and
+							projects, which allows you to apply theoretical knowledge in real
+							situations. It helps you understand the material better and gain
+							practical experience that can be used in the future work
 						</li>
 						<li>
-							Гнучкий графік: Наша програма з курсами ІТ пропонує гнучкий
-							графік, що дозволяє вам навчатися в зручний для вас час. Ви можете
-							вибрати онлайн курси з доступом 24/7 або обрати заняття в
-							аудиторії з урахуванням вашого розкладу.
+							Flexible schedule: Our IT course program offers flexible a
+							schedule that allows you to study at a time convenient for you.
+							You can choose online courses with 24/7 access or choose classes
+							in audiences based on your schedule.
 						</li>
 						<li>
-							Сертифікати: По закінченні кожного курсу ви отримаєте сертифікат,
-							що підтверджує вашу успішну участь та засвоєння матеріалу. Це може
-							бути цінним додатком до вашого резюме та допоможе підвищити ваші
-							шанси на успішну кар'єру в сфері ІТ.
+							Certificates: At the end of each course you will receive a
+							certificate, which confirms your successful participation and
+							learning of the material. It can be a valuable addition to your
+							resume and help boost your chances for a successful career in IT.
 						</li>
 					</ol>
 					<p>
-						Не втрачайте можливості розвинути свої навички в сфері інформаційних
-						технологій. Приєднуйтесь до нашої програми з курсами ІТ сьогодні і
-						розпочніть свій шлях до успішної кар'єри в галузі ІТ!
+						Do not miss the opportunity to develop your skills in the field of
+						information technologies. Join our IT course program today and start
+						your journey to a successful IT career!
 					</p>
 				</div>
 			</div>
